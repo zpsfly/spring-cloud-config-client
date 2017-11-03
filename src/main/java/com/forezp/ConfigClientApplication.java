@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
  * client 工程启动的时候，会根据配置文件的配置访问server,server会根据访问git上文件名spring.application.name-spring.cloud.config.profile
  * 的文件，然后把配置文件的值赋值给@Value注解
  * http://localhost:8881/imageurl
+ * bootstrap.properties加载优先于application.properties
+ * 
+ * 在spring-boot中，yml和properties是等效的
  * @author Administrator
  *
  */
